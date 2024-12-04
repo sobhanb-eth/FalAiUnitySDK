@@ -3,9 +3,16 @@
     "version": "1.0.0",
     "displayName": "Fal.ai Unity SDK",
     "description": "Fal.ai Image to 3D Model SDK for Unity",
-    "unity": "2020.3",
+    "unity": "6000.0",
+    "author": {
+        "name": "Ryan (Sobhan) Bahrami",
+        "email": "sobhan.bahrami.v@gmail.com",
+        "url": "https://sobhanbahrami.com"
+    },
     "dependencies": {
         "com.unity.cloud.gltfast": "6.9.0",
         "com.unity.nuget.newtonsoft-json": "3.0.2"
-    }
+    },
+    "type": "library",
+    "unityRelease": "27f1"
 }

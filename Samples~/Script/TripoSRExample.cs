@@ -1,8 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TripoSR.SDK;
 
-namespace TripoSR.SDK
-{
     /// <summary>
     /// The TripoSRExample class serves as a basic template for a Unity MonoBehaviour script.
     /// This class can be used as a starting point for creating custom behaviors and functionality
@@ -184,5 +183,5 @@ namespace TripoSR.SDK
             }
         }
     }
-}
+
 

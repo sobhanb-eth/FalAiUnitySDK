@@ -1,6 +1,5 @@
 // Runtime/Scripts/Core/OneDecimalSliderAttribute.cs
 using UnityEngine;
-using UnityEditor;
 
 namespace TripoSR.SDK
 {

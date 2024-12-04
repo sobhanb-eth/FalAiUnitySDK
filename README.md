@@ -108,6 +108,9 @@ public Timings timings;
 }
 ```
 
+## Sample Scene
+
+Import the sample scene from the Samples section in unity package manager
 ## Notes
 
 Recommended

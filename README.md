@@ -1,4 +1,13 @@
 # FAL.ai Unity SDK
+![Unity_p55fToaZQB](https://github.com/user-attachments/assets/8ddbf38d-5d58-422c-9c50-51e663a680cf)
+
+# Important Remarks
+
+This package doesn't support loading from file, as the Fal.ai endpoint doesn't support it, for it to support that you should first upload you image to a publicly accessible host and then return the url to feed 
+into the url and then process it.
+There is room for improvement and optimization, this is the Basic SDK featuring Image to 3D model inside unity.
+
+the SDK will be updated in my free time :)
 
 A Unity SDK for converting images to 3D models using the Fal.ai TripoSR service.
 Features

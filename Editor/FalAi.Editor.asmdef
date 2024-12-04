@@ -2,8 +2,7 @@
     "name": "FalAi.Editor",
     "rootNamespace": "",
     "references": [
-        "GUID:94d0bf56d8de87f49853077ba0cc0f8d",
-        "FalAi.Runtime"
+        "GUID:94d0bf56d8de87f49853077ba0cc0f8d"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

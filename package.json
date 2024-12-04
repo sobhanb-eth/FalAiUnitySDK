@@ -13,6 +13,13 @@
         "com.unity.cloud.gltfast": "6.9.0",
         "com.unity.nuget.newtonsoft-json": "3.0.2"
     },
+    "samples": [
+        {
+            "displayName": "Demo Scene with Configuration",
+            "description": "Contains sample Scene to understand the system",
+            "path": "Samples~/"
+        }
+    ],
     "type": "library",
     "unityRelease": "27f1"
 }

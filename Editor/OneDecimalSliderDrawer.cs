@@ -1,29 +1,17 @@
-// Runtime/Scripts/Core/OneDecimalSliderAttribute.cs
 using UnityEngine;
 using UnityEditor;
 
-namespace TripoSR.SDK
+namespace TripoSR.SDK.Editor
 {
-    // Attribute to apply the custom slider
-    public class OneDecimalSliderAttribute : PropertyAttribute
-    {
-        public readonly float Min;
-        public readonly float Max;
-
-        public OneDecimalSliderAttribute(float min, float max)
-        {
-            Min = min;
-            Max = max;
-        }
-    }
-
-// Custom Property Drawer for the OneDecimalSliderAttribute
+    /// <summary>
+    /// Custom Property Drawer for the OneDecimalSliderAttribute.
+    /// </summary>
     [CustomPropertyDrawer(typeof(OneDecimalSliderAttribute))]
     public class OneDecimalSliderDrawer : PropertyDrawer
     {
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
         {
-            // Get the range limits
+            // Get the range limits from the attribute
             OneDecimalSliderAttribute slider = (OneDecimalSliderAttribute)attribute;
 
             if (property.propertyType == SerializedPropertyType.Float)

@@ -4,7 +4,9 @@ using UnityEngine.Networking;
 using System.Threading.Tasks;
 using System.Text;
 
-public class TripoSRApi
+namespace TripoSR.SDK
+{
+    public class TripoSRApi
 {
     private readonly string apiKey;
     private const string API_BASE_URL = "https://queue.fal.run/fal-ai/triposr";
@@ -100,4 +102,5 @@ public class TripoSRApi
         public string status;
         public string response_url;
     }
+}
 }

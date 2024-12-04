@@ -2,7 +2,10 @@
 
 using System;
 
-public class TripoSRException : Exception
+namespace TripoSR.SDK
 {
-    public TripoSRException(string message) : base(message) { }
+    public class TripoSRException : Exception
+    {
+        public TripoSRException(string message) : base(message) { }
+    }
 }

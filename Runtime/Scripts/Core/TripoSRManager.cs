@@ -4,7 +4,9 @@ using System.Threading.Tasks;
 using GLTFast;
 using System;
 
-public class TripoSRManager : MonoBehaviour
+namespace TripoSR.SDK
+{
+    public class TripoSRManager : MonoBehaviour
 {
     private static TripoSRManager instance;
     private TripoSRConfig config;
@@ -101,4 +103,6 @@ public class TripoSRManager : MonoBehaviour
 
         return gameObject;
     }
+}
+
 }

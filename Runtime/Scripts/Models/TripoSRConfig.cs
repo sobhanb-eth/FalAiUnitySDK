@@ -1,19 +1,22 @@
-// Scripts/Models/TripoSRConfig.cs
+// Runtime/Scripts/Models/TripoSRConfig.cs
 
 using System;
 
-public class TripoSRConfig
+namespace TripoSR.SDK
 {
-    public string ApiKey { get; set; }
-}
+    public class TripoSRConfig
+    {
+        public string ApiKey { get; set; }
+    }
 
 
-[Serializable]
-public class TripoSRRequest
-{
-    public string image_url;
-    public string output_format = "glb";
-    public bool do_remove_background = true;
-    public float foreground_ratio = 0.9f;
-    public int mc_resolution = 256;
+    [Serializable]
+    public class TripoSRRequest
+    {
+        public string image_url;
+        public string output_format = "glb";
+        public bool do_remove_background = true;
+        public float foreground_ratio = 0.9f;
+        public int mc_resolution = 256;
+    }
 }

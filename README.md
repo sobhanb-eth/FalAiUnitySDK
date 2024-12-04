@@ -136,4 +136,6 @@ Models are automatically positioned at the parent transform's origin
 * Unity 2020.3 or higher
 * .NET 4.x or higher
 * Active Fal.ai API key https://fal.ai/dashboard/keys
+![image](https://github.com/user-attachments/assets/45467b21-2773-4d28-bf3c-d1f94ee1ae1a)
+
 * Internet connection for API communication

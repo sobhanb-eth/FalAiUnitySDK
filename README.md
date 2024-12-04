@@ -117,7 +117,9 @@ public Timings timings;
 }
 ```
 
-## Sample Scene
+## Samples
+![image](https://github.com/user-attachments/assets/1230b9c1-7ad3-4a22-a155-e9cbbfb3d273)
+
 
 Import the sample scene from the Samples section in unity package manager
 ## Notes
@@ -133,5 +135,5 @@ Models are automatically positioned at the parent transform's origin
 
 * Unity 2020.3 or higher
 * .NET 4.x or higher
-* Active Fal.ai API key
+* Active Fal.ai API key https://fal.ai/dashboard/keys
 * Internet connection for API communication

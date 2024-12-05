@@ -20,9 +20,11 @@ User-friendly UI components
 ## Installation
 
 Add the package to your Unity project via Package Manager
+![image](https://github.com/user-attachments/assets/dc416169-9c66-41b1-b156-5435e4c176c2)
+
 Install required dependencies:
-com.unity.cloud.gltfast (6.9.0 or higher)
-com.unity.nuget.newtonsoft-json (3.0.2 or higher)
+* com.unity.cloud.gltfast (6.9.0 or higher)
+* com.unity.nuget.newtonsoft-json (3.0.2 or higher)
 
 ## Setup
 

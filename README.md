@@ -26,6 +26,8 @@ Install required dependencies:
 * com.unity.cloud.gltfast (6.9.0 or higher)
 * com.unity.nuget.newtonsoft-json (3.0.2 or higher)
 
+Installation of these dependencies will be handled automatically.
+
 ## Setup
 
 Create a new GameObject in your scene
